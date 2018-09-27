@@ -1,0 +1,24 @@
+{
+  "name": "daily-rotation-bot",
+  "version": "1.0.0",
+  "description": "Slack bot that picks a person to facilitate daily stand-up",
+  "main": "index.js",
+  "scripts": {
+    "bot": "node index.js"
+  },
+  "keywords": [
+    "slackbot",
+    "sandbox"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@slack/client": "4.6.0",
+    "random-number-csprng": "1.0.2",
+    "request": "2.76.0"
+  },
+  "devDependencies": {
+    "eslint": "5.6.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.14.0"
+  }
+}
