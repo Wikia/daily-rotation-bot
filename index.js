@@ -9,7 +9,7 @@ const commands = [
 	help
 ];
 
-console.log('Sandbot activated.');
+console.log('Daily rotation bot activated.');
 rtm.start();
 console.log('Slack RTM started.');
 
