@@ -1,3 +1,3 @@
-Slack bot that picks a person to facilitate daily stand-up
+Slack bot that picks a person to facilitate daily stand-up.
 
-It's run using chef, see https://github.com/Wikia/chef-repo/tree/master/cookbooks/daily-rotation-bot
+The list of candidates is in the [/teams](https://github.com/Wikia/daily-rotation-bot/tree/master/teams) dir. It's enough to push a change to master and it'll be [deployed automatically by chef](https://github.com/Wikia/chef-repo/tree/master/cookbooks/daily-rotation-bot).
