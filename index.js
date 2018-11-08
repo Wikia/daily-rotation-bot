@@ -1,9 +1,12 @@
-const { RTMClient } = require('@slack/client');
+const { RTMClient, LogLevel, retryPolicies } = require('@slack/client');
 const pick = require('./pick');
 const help = require('./help');
 
 const token = process.env.SLACK_TOKEN || '';
-const rtm = new RTMClient(token, { logLevel: 'error' });
+const rtm = new RTMClient(token, {
+	logLevel: LogLevel.WARN,
+	retryConfig: retryPolicies.retryForeverExponential
+});
 const commands = [
 	pick,
 	help
