@@ -14,8 +14,6 @@ module.exports = {
 		// Szymon
 		'<@U2JGPGHDM>',
 		// Harnaś
-		'<@U03H7DH9B>',
-		// Igor
-		'<@U02PDPPHB>'
+		'<@U03H7DH9B>'
 	]
 };
